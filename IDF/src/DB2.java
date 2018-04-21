@@ -10,7 +10,7 @@ public class DB2
         try
         {
             Class.forName("org.sqlite.JDBC");
-            Connection con=DriverManager.getConnection("jdbc:sqlite:C:\\Users\\urmikapoor\\Desktop\\IDF2.sqlite");
+            Connection con=DriverManager.getConnection("jdbc:sqlite:C:\\Users\\RichaDesai\\Desktop\\IDF2.sqlite");
             JOptionPane.showMessageDialog(null, "ConnectionEstablished");
             return con;
         }
